@@ -1,3 +1,6 @@
+
+This is very first message from the git.
+
 spring:
   application:
     name: welcome-service
