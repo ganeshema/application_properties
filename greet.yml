@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: greet-service
+
+server:
+  port: 8083
+
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
