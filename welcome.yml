@@ -1,24 +1,2 @@
 msg:This is very first message from the git
 
-spring:
-  application:
-    name: welcome-service
-
-  boot:
-    admin:
-      client:
-        url: http://localhost:1111/
-
-# server:
-#   port: 8082
-
-# eureka:
-#   client:
-#     service-url:
-#       defaultZone: http://localhost:8761/eureka/
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
